@@ -1,5 +1,27 @@
+<!DOCTYPE html>
 <html>
+<head>
+  <title>Simple Registration Form</title>
+</head>
 <body>
-<h2>Testing Poll SCM-1</h2>
+
+  <h2>Registration Form</h2>
+
+  <form>
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password" required><br><br>
+
+    <label>Confirm Password:</label><br>
+    <input type="password" name="confirm_password" required><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+
 </body>
 </html>
