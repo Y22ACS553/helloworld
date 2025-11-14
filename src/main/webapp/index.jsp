@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Simple Registration Form</title>
+    <title>Sample Registration Form</title>
 </head>
 <body>
+<center>
+    <h2>Sample Registration Form</h2>
 
-  <h2>Registration Form</h2>
+    <form>
+        Name:<br>
+        <input type="text"><br><br>
 
-  <form>
-    <label>Full Name:</label><br>
-    <input type="text" name="fullname" required><br><br>
+        Email:<br>
+        <input type="text"><br><br>
 
-    <label>Email:</label><br>
-    <input type="email" name="email" required><br><br>
+        Mobile Number:<br>
+        <input type="text"><br><br>
 
-    <label>Password:</label><br>
-    <input type="password" name="password" required><br><br>
+        Gender:<br>
+        <input type="radio" name="g"> Male
+        <input type="radio" name="g"> Female
+        <input type="radio" name="g"> Other<br><br>
 
-    <label>Confirm Password:</label><br>
-    <input type="password" name="confirm_password" required><br><br>
+        College Name:<br>
+        <input type="text"><br><br>
 
-    <button type="submit">Register</button>
-  </form>
-
+        <input type="submit" value="Submit">
+    </form>
+</center>
 </body>
 </html>
