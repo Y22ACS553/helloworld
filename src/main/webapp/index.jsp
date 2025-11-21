@@ -1,5 +1,14 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<center>
+<h2>Docker Container</h2>
+<form>
+Username:
+<input type="text" placeholder="username"></input><br>
+Password
+<input type="text" placeholder="password"></input>
+Confirm Password
+<input type="text" placeholder="password"></input>
+<form>
 </body>
 </html>
