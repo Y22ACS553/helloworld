@@ -6,7 +6,7 @@
 Username:
 <input type="text" placeholder="username"></input><br>
 Password
-<input type="text" placeholder="password"></input>
+<input type="text" placeholder="password"></input><br>
 Confirm Password
 <input type="text" placeholder="password"></input>
 <form>
